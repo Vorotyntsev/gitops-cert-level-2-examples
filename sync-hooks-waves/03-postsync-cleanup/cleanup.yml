@@ -6,7 +6,11 @@ metadata:
   labels:
     codefresh.io/cert: cleanup-job
   annotations:
+<<<<<<< HEAD
       argocd.argoproj.io/hook: PostSync
+=======
+    argocd.argoproj.io/hook: PostSync
+>>>>>>> 444a46c04c1a0b874da3cb0968a4ece84ef95741
 spec:
   template:
     spec:
